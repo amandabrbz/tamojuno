@@ -9,6 +9,9 @@ export const Container = styled.div`
     margin-left: 15%;
     display: inline-block;
     vertical-align: middle;
+    position: absolute;
+    left: 5%;
+    top: 2%;
   }
 `;
 
@@ -23,4 +26,9 @@ export const CallToAction = styled.button`
   font-size: 16px;
   text-align: center;
   align-items: center;
+  position: absolute;
+  left: 72.4%;
+  right: 19.79%;
+  top: 1.4%;
+  bottom: 97.51%;
 `;

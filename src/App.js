@@ -2,13 +2,19 @@ import React, { Fragment } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
+import Reasons from "./components/Reasons";
+import Footer from "./components/Footer";
+import Liked from "./components/Liked";
 
 function App() {
   return (
-    <Fragment>
+    <div>
       <Navbar />
       <Banner />
-    </Fragment>
+      <Reasons />
+      <Liked />
+      <Footer/>
+    </div>
   );
 }
 
