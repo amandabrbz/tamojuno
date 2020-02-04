@@ -1,4 +1,11 @@
 import styled from "styled-components";
+import mediaHelper from "styled-media-helper";
+
+const media = mediaHelper({
+  sm: 375,
+  md: 768,
+  lg: 1240
+});
 
 export const Section = styled.section`
   display: flex;
@@ -6,6 +13,10 @@ export const Section = styled.section`
   justify-content: center;
   align-items: center;
   flex: 1;
+  ${media.down("sm")} {
+      flex-direction: column-reverse;
+      margin: 1.5rem 0 3rem 0;
+  }
 `;
 
 export const Container = styled.div`
