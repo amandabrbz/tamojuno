@@ -1,18 +1,25 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-  width: 1920px;
-  height: 63px;
-  background: #252aff;
-
-  img {
-    margin-left: 15%;
-    display: inline-block;
-    vertical-align: middle;
-    position: absolute;
-    left: 5%;
-    top: 2%;
+export const Container = styled.header`
+  @media only screen and (max-width: 300px) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
   }
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    padding: 0rem .7rem 0rem .7rem; 
+  }
+  background: #252aff;
+  width: 100%;
+  height: 63px;
+  display: flex;
+`;
+
+export const Cell = styled.div`
+  flex: 1;
+  align-self: center;
+  text-align: center;
 `;
 
 export const CallToAction = styled.button`
@@ -26,9 +33,4 @@ export const CallToAction = styled.button`
   font-size: 16px;
   text-align: center;
   align-items: center;
-  position: absolute;
-  left: 72.4%;
-  right: 19.79%;
-  top: 1.4%;
-  bottom: 97.51%;
 `;

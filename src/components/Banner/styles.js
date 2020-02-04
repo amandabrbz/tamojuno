@@ -1,12 +1,28 @@
 import styled from "styled-components";
 import banner from "../../assets/banner.png";
 
-export const Content = styled.div`
-  background-image: url(${banner}) norepeat;
-  background-color: #cccccc;
+export const Content = styled.main`
+  background-image: url(${banner});
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
   position: absolute;
   width: 100%;
   height: 537px;
+  display: flex;
+  @media only screen and (max-width: 320px) {
+    width: 100%;
+    background-position: 80%;
+  }
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    padding: 0rem 0.7rem 0rem 0.7rem;
+    background-position: 65%;
+  }
+`;
+
+export const Column = styled.section`
+
 `;
 
 export const Title = styled.h1`
@@ -17,8 +33,6 @@ export const Title = styled.h1`
   position: absolute;
   width: 476px;
   height: 144px;
-  left: 20%;
-  top: 20%;
 `;
 
 export const Subtitle = styled.p`
@@ -29,8 +43,6 @@ export const Subtitle = styled.p`
   position: absolute;
   width: 523px;
   height: 75px;
-  left: 20%;
-  top: 50%;
 `;
 
 export const CallToAction = styled.button`
@@ -45,7 +57,4 @@ export const CallToAction = styled.button`
   text-align: center;
   align-items: center;
   position: absolute;
-  left: 20%;
-  right: 72.4%;
-  top: 72.5%;
 `;

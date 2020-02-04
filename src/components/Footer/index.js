@@ -10,8 +10,7 @@ export default class Footer extends Component {
         </Text>
         <Text>
           <p>
-            2020 Juno. Todos os direitos reservados.
-            <br />
+            2020 Juno. Todos os direitos reservados.<br/>
             Juno é uma plataforma de BoletoBancário.com
           </p>
         </Text>
