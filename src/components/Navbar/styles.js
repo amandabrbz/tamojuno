@@ -1,19 +1,27 @@
 import styled from "styled-components";
+import mediaHelper from "styled-media-helper";
+
+const media = mediaHelper({
+  sm: 320,
+  md: 768,
+  lg: 1240
+});
 
 export const Container = styled.header`
-  @media only screen and (max-width: 300px) {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    width: 100%;
-  }
-  @media only screen and (max-width: 768px) {
-    width: 100%;
-    padding: 0rem .7rem 0rem .7rem; 
-  }
   background: #252aff;
   width: 100%;
   height: 63px;
   display: flex;
+
+  ${media.down("sm")} {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+  }
+  ${media.down("md")} {
+    width: 100%;
+    padding: 0rem 0.7rem 0rem 0.7rem;
+  }
 `;
 
 export const Cell = styled.div`

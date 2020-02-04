@@ -3,7 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 // import Reasons from "./components/Reasons";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 // import Liked from "./components/Liked";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Banner />
       {/* <Reasons /> */}
       {/* <Liked /> */}
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }
