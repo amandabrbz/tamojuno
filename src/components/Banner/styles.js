@@ -11,7 +11,7 @@ const media = mediaHelper({
 export const Main = styled.main`
   background-image: url(${banner});
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
   background-size: cover;
   height: 537px;
   top: 63px;
@@ -30,8 +30,8 @@ export const Main = styled.main`
 `;
 
 export const Section = styled.div`
-align-items: center;
-margin-left:14%;
+  align-items: center;
+  margin-left: 14%;
 `;
 
 export const Title = styled.h1`
@@ -40,10 +40,12 @@ export const Title = styled.h1`
   line-height: 48px;
   color: #fff;
   width: 476px;
+  ${media.down("sm")} {
+    width: 311px;
+  }
 `;
 
 export const Paragraph = styled.p`
-  width: 317px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -51,14 +53,17 @@ export const Paragraph = styled.p`
   letter-spacing: 0.4px;
   color: #fff;
   width: 523px;
+  ${media.down("sm")} {
+    width: 311px;
+  }
 `;
 
 export const CallToAction = styled.button`
+  width: 150px;
+  height: 34.58px;
   background: #3ecf0e;
   border-radius: 4px;
   border: 1px solid #3ecf0e;
-  height: 34.58px;
-  width: 150px;
   color: #fff;
   font-weight: bold;
   font-size: 16px;

@@ -11,9 +11,9 @@ function App() {
     <div>
       <Navbar />
       <Banner />
-      {/* <Reasons /> */}
+      <Reasons />
       <Content />
-      {/* <Liked /> */}
+      <Liked />
       <Footer/>
     </div>
   );
