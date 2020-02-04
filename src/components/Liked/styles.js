@@ -8,21 +8,23 @@ const media = mediaHelper({
 });
 
 export const Section = styled.section`
+  display:flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 450px;
-  background-color: #00155f;
-  display: flex;
   bottom: 0;
+  background-color: #00155f;
 
   ${media.down("sm")} {
     display: table;
     width: 100%;
-    height: 331px;
   }
   ${media.down("md")} {
     width: 100%;
     display: table;
-    max-height: 331px;
   }
 `;
 

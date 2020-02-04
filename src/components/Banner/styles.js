@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import banner from "../../assets/banner.png";
 import mediaHelper from "styled-media-helper";
 
 const media = mediaHelper({
@@ -9,20 +8,21 @@ const media = mediaHelper({
 });
 
 export const Main = styled.main`
-  background-image: url(${banner});
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 537px;
   top: 63px;
   display: flex;
-  flex-direction: row;
-  justify-content: left;
-  align-items: center;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: space-between;
+  align-items: left;
   flex: 1;
 
   ${media.down("sm")} {
     background-position: 80%;
+    width: 100%;
   }
   ${media.down("md")} {
     background-position: 65%;
@@ -31,7 +31,6 @@ export const Main = styled.main`
 
 export const Section = styled.div`
   align-items: center;
-  margin-left: 14%;
 `;
 
 export const Title = styled.h1`

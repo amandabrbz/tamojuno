@@ -8,10 +8,10 @@ const media = mediaHelper({
 });
 
 export const Header = styled.header`
-  background: #252aff;
   width: 100%;
   height: 63px;
   display: flex;
+  justify-content: space-between;
 
   ${media.down("sm")} {
     padding-left: 1rem;
@@ -25,9 +25,9 @@ export const Header = styled.header`
 `;
 
 export const Cell = styled.div`
-  flex: 1;
   align-self: center;
   text-align: center;
+
 `;
 
 export const CallToAction = styled.button`
