@@ -1,17 +1,18 @@
 import React from "react";
-import "./App.css";
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
-// import Reasons from "./components/Reasons";
+import Reasons from "./components/Reasons";
+import Liked from "./components/Liked";
 import Footer from "./components/Footer";
-// import Liked from "./components/Liked";
+import Content from "./components/Content";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Banner />
+      {/* <Banner /> */}
       {/* <Reasons /> */}
+      <Content />
       {/* <Liked /> */}
       <Footer/>
     </div>

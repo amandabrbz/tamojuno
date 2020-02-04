@@ -2,12 +2,12 @@ import styled from "styled-components";
 import mediaHelper from "styled-media-helper";
 
 const media = mediaHelper({
-  sm: 320,
+  sm: 375,
   md: 768,
   lg: 1240
 });
 
-export const Container = styled.header`
+export const Header = styled.header`
   background: #252aff;
   width: 100%;
   height: 63px;
