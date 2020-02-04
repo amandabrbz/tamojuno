@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      {/* <Banner /> */}
+      <Banner />
       {/* <Reasons /> */}
       <Content />
       {/* <Liked /> */}

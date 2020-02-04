@@ -1,24 +1,18 @@
 import React, { Component } from "react";
-import { Content, Title, Subtitle, CallToAction, Column } from "./styles";
+import { Main, Title, Paragraph, CallToAction, Section} from "./styles";
 
 export default class Banner extends Component {
   render() {
     return (
-      <Content>
-        <Column>
-          <Title>
-            Profissionalize seu negócio recebendo pagamentos por boleto
-          </Title>
-        </Column>
-        <Column>
-          <Subtitle>
-            Na Juno você não precisa ter conta jurídica e nem carteira de
-            cobrança junto ao banco para emitir boletos. Basta seu CPF. Simples
-            assim!
-          </Subtitle>
+      <Main>
+        <Section>
+          <Title>Emita cobranças recorrentes</Title>
+          <Paragraph>
+          Na <strong>Juno</strong> você não precisa ter conta jurídica e nem carteira de cobrança junto ao banco para emitir boletos. Basta seu CPF. Simples assim!
+          </Paragraph>
           <CallToAction>Comece agora</CallToAction>
-        </Column>
-      </Content>
+        </Section>
+      </Main>
     );
   }
 }

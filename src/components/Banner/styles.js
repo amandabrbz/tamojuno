@@ -8,47 +8,49 @@ const media = mediaHelper({
   lg: 1240
 });
 
-export const Content = styled.main`
+export const Main = styled.main`
   background-image: url(${banner});
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
-  width: 100%;
   height: 537px;
-  display: flex;
   top: 63px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  flex: 1;
 
   ${media.down("sm")} {
-    width: 100%;
     background-position: 80%;
   }
   ${media.down("md")} {
-    width: 100%;
-    padding: 0rem 0.7rem 0rem 0.7rem;
     background-position: 65%;
   }
 `;
 
-export const Column = styled.section``;
+export const Section = styled.div`
+align-items: center;
+margin-left:14%;
+`;
 
 export const Title = styled.h1`
   font-weight: bold;
   font-size: 40px;
   line-height: 48px;
   color: #fff;
-  position: absolute;
   width: 476px;
-  height: 144px;
 `;
 
-export const Subtitle = styled.p`
-  font-weight: bold;
+export const Paragraph = styled.p`
+  width: 317px;
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   line-height: 140%;
+  letter-spacing: 0.4px;
   color: #fff;
-  position: absolute;
   width: 523px;
-  height: 75px;
 `;
 
 export const CallToAction = styled.button`
@@ -62,5 +64,4 @@ export const CallToAction = styled.button`
   font-size: 16px;
   text-align: center;
   align-items: center;
-  position: absolute;
 `;

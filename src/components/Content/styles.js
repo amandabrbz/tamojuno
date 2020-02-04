@@ -15,7 +15,11 @@ export const Section = styled.section`
   flex: 1;
   ${media.down("sm")} {
       flex-direction: column-reverse;
-      margin: 1.5rem 0 3rem 0;
+      margin: 3rem 0 3rem 0;
+      img {
+        margin: 0 0 0 5rem;
+        width:80%;
+      }
   }
 `;
 
@@ -32,7 +36,7 @@ export const Title = styled.h2`
   color: #252aff;
 `;
 
-export const Subtitle = styled.p`
+export const Paragraph = styled.p`
   width: 317px;
   font-style: normal;
   font-weight: normal;

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Section, Title, Subtitle, Container } from "./styles";
+import { Section, Title, Paragraph, Container } from "./styles";
 import cobrancas from "../../assets/cobrancas.png";
 
 export default class Content extends Component {
@@ -8,13 +8,13 @@ export default class Content extends Component {
       <Section>
         <Container>
           <Title>Emita cobranças recorrentes</Title>
-          <Subtitle>
-            Com a Juno, você pode emitir cobranças recorrentes com lembretes que
+          <Paragraph>
+            Com a <strong>Juno</strong>, você pode emitir cobranças recorrentes com lembretes que
             ajudam a diminuir a inadimplência dos seus clientes.
-          </Subtitle>
+          </Paragraph>
         </Container>
         <Container>
-          <img src={cobrancas} alt="" />
+          <img src={cobrancas} alt="Plataforma Juno de emissão de cobrança" />
         </Container>
       </Section>
     );
