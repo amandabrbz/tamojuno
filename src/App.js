@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Banner from "./components/Banner";
-import Reasons from "./components/Reasons";
+import Banner from "./components/Main";
+import Lists from "./components/Lists";
 import Liked from "./components/LastCall";
 import Footer from "./components/Footer";
 import Content from "./components/Content";
@@ -11,7 +11,7 @@ function App() {
     <>
       <Navbar />
       <Banner />
-      <Reasons />
+      <Lists />
       <Content />
       <Liked />
       <Footer/>

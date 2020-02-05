@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Title, List, Container } from "./styles";
 import { Section } from "../globalStyles";
 
-export default class Reasons extends Component {
+export default class Lists extends Component {
   render() {
     return (
       <Section className="reasons">
