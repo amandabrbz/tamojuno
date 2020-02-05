@@ -29,6 +29,7 @@ export const Text = styled.div`
     box-sizing: border-box;
     background-color: #00155f;
     padding: 1rem;
+    align-items: flex-end;
     ${media.down("sm")} {
       padding: 2rem;
     }
@@ -76,6 +77,7 @@ export const Like = styled.h3`
   }
 `;
 
-export const Cell = styled.div`
-  width: 50%;
+export const Group = styled.div`
+  width: 75%;
+  align-items: center;
 `;
