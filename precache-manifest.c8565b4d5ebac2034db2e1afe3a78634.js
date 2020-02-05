@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8b99e1d3dbb6d6c2a01a56e075ab7cb6",
+    "revision": "59edda8da26e6e5373a5fb054c35038c",
     "url": "/tamojuno/index.html"
   },
   {
-    "revision": "b7d30de3e2c0596e284c",
-    "url": "/tamojuno/static/css/main.3b26859d.chunk.css"
+    "revision": "41981fcf3bc6479b33e3",
+    "url": "/tamojuno/static/css/main.786c2dc4.chunk.css"
   },
   {
     "revision": "88b46bfacd1f53128b39",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tamojuno/static/js/2.db68e241.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b7d30de3e2c0596e284c",
-    "url": "/tamojuno/static/js/main.2da60e96.chunk.js"
+    "revision": "41981fcf3bc6479b33e3",
+    "url": "/tamojuno/static/js/main.97978728.chunk.js"
   },
   {
     "revision": "21cc43f039836ab8579a",
