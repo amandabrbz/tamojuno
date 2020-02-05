@@ -7,7 +7,7 @@ const media = mediaHelper({
   lg: 1240
 });
 
-export const Container = styled.div`
+export const Container2 = styled.div`
   align-items: center;
 `;
 
@@ -17,7 +17,9 @@ export const Title = styled.h2`
   width: 280px;
   height: 64px;
   color: #252aff;
+  ${media.down("sm")}{
   margin: 2rem;
+  }
 `;
 
 export const List = styled.ol`

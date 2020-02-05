@@ -1,15 +1,14 @@
 import React, { Component } from "react";
-import { Title, List, Container } from "./styles";
-import { Section } from "../globalStyles";
+import { Title, List, Container2 } from "./styles";
+import { Section, Container } from "../globalStyles";
 
 export default class Lists extends Component {
   render() {
     return (
       <Section className="reasons">
         <Container>
+        <Container2>
           <Title>Como a Juno funciona?</Title>
-        </Container>
-        <Container>
           <List>
             <li>
               <p>
@@ -32,6 +31,7 @@ export default class Lists extends Component {
               </p>
             </li>
           </List>
+        </Container2>
         </Container>
       </Section>
     );
