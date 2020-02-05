@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import juno from "../../assets/juno.svg";
-import  { Section, Container } from '../globalStyles';
-import { CallToAction, Header, Cell } from "./styles";
+import { Section, Container, CallToAction } from "../globalStyles";
+import { Header, Cell } from "./styles";
 
 export default class Navbar extends Component {
   render() {
     return (
-      <Section className="navBar" >
+      <Section className="navBar">
         <Container>
           <Header>
             <Cell>
@@ -14,7 +14,9 @@ export default class Navbar extends Component {
             </Cell>
             <Cell></Cell>
             <Cell>
-              <CallToAction href="https://juno.com.br">Comece agora</CallToAction>
+              <CallToAction as="a" href="https://juno.com.br">
+                Comece agora
+              </CallToAction>
             </Cell>
           </Header>
         </Container>

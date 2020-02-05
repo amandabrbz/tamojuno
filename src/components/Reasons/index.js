@@ -1,15 +1,14 @@
 import React, { Component } from "react";
-import { Section, Title, Question, List, Container } from "./styles";
-import {} from "../Banner/styles";
+import { Title, List, Container } from "./styles";
+import { Section } from "../globalStyles";
 
 export default class Reasons extends Component {
   render() {
     return (
-      <Section>
+      <Section className="reasons">
         <Container>
           <Title>Como a Juno funciona?</Title>
         </Container>
-        <br />
         <Container>
           <List>
             <li>
@@ -20,13 +19,17 @@ export default class Reasons extends Component {
               </p>
             </li>
             <li>
-              Seu cliente recebe a cobrança da maneira que você preferir e paga.
-              A Juno cuida da conciliação bancária e da segurança das suas
-              transações.
+              <p>
+                Seu cliente recebe a cobrança da maneira que você preferir e
+                paga. A Juno cuida da conciliação bancária e da segurança das
+                suas transações.
+              </p>
             </li>
             <li>
-              O dinheiro cai na sua conta Juno e você pode usá-lo com seu cartão
-              Juno, pagar contas ou transferir para uma conta bancária.
+              <p>
+                O dinheiro cai na sua conta Juno e você pode usá-lo com seu
+                cartão Juno, pagar contas ou transferir para uma conta bancária.
+              </p>
             </li>
           </List>
         </Container>

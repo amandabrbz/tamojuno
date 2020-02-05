@@ -7,34 +7,52 @@ const media = mediaHelper({
   lg: 1240
 });
 
-export const Container = styled.footer`
+export const Footer = styled.footer`
   width: 100%;
-  height: 90px;
-  background: #252aff;
+  min-height: 70px;
   display: flex;
-  bottom: 0;
+  justify-content: space-between;
 
   ${media.down("sm")} {
     width: 100%;
-    display: table;
-    padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+    flex-direction: column;
+    min-height: 120px;
+    margin: 1rem;
   }
   ${media.down("md")} {
     width: 100%;
-    display: table;
-    padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+    flex-direction: column;
+    min-height: 120px;
+    margin: 1rem;
+  }
+
+  p {
+    margin: 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+
+    ${media.down("sm")} {
+      margin: 0;
+    }
   }
 `;
 
-export const Text = styled.div`
-  width: 100%;
-  flex: 1;
+export const Cell = styled.div`
   align-self: center;
   text-align: center;
-  p {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    color: #ffffff;
-  }
+`;
+
+export const CallToAction = styled.button`
+  background: #3ecf0e;
+  border-radius: 4px;
+  border: 1px solid #3ecf0e;
+  height: 40px;
+  width: 150px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
 `;

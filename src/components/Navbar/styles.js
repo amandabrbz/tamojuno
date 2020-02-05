@@ -14,13 +14,12 @@ export const Header = styled.header`
   justify-content: space-between;
 
   ${media.down("sm")} {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0 2rem;
     width: 100%;
   }
   ${media.down("md")} {
     width: 100%;
-    padding: 0rem 0.7rem 0rem 0.7rem;
+    padding: 0 2rem;
   }
 `;
 
@@ -28,17 +27,4 @@ export const Cell = styled.div`
   align-self: center;
   text-align: center;
 
-`;
-
-export const CallToAction = styled.button`
-  background: #3ecf0e;
-  border-radius: 4px;
-  border: 1px solid #3ecf0e;
-  height: 40px;
-  width: 150px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 16px;
-  text-align: center;
-  align-items: center;
 `;

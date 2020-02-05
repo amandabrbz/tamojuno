@@ -1,23 +1,27 @@
 import React, { Component } from "react";
-import { Container, Text } from "./styles";
 
-export default class Footer extends Component {
+import { Section, Container } from "../globalStyles";
+import { Footer, Cell } from "./styles";
+
+export default class Navbar extends Component {
   render() {
     return (
-      <Container>
-        <Text>
-          <p>Juno.com.br</p>
-        </Text>
-        <Text>
-          <p>
-            2020 Juno. Todos os direitos reservados.<br/>
-            Juno é uma plataforma de BoletoBancário.com
-          </p>
-        </Text>
-        <Text>
-          <p>#tamojuno</p>
-        </Text>
-      </Container>
+      <Section className="navBar">
+        <Container>
+          <Footer>
+            <Cell>
+              <p>Juno.com.br</p>
+            </Cell>
+            <Cell>
+              <p>2020 Juno. Todos os direitos reservados.</p>
+              <p>Juno é uma plataforma de BoletoBancário.com</p>
+            </Cell>
+            <Cell>
+              <p>#tamojuno</p>
+            </Cell>
+          </Footer>
+        </Container>
+      </Section>
     );
   }
 }

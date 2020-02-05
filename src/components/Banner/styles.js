@@ -8,9 +8,6 @@ const media = mediaHelper({
 });
 
 export const Main = styled.main`
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   height: 537px;
   top: 63px;
   display: flex;
@@ -21,16 +18,13 @@ export const Main = styled.main`
   flex: 1;
 
   ${media.down("sm")} {
-    background-position: 80%;
-    width: 100%;
+    padding: 0rem;
+    margin: 0px;
   }
   ${media.down("md")} {
-    background-position: 65%;
+    margin: 2rem;
+    text-align: left;
   }
-`;
-
-export const Section = styled.div`
-  align-items: center;
 `;
 
 export const Title = styled.h1`
@@ -39,8 +33,12 @@ export const Title = styled.h1`
   line-height: 48px;
   color: #fff;
   width: 476px;
+  margin: 0px;
+  font-weight: 700;
+
   ${media.down("sm")} {
     width: 311px;
+    margin: 0px;
   }
 `;
 
@@ -54,18 +52,6 @@ export const Paragraph = styled.p`
   width: 523px;
   ${media.down("sm")} {
     width: 311px;
+    margin: 1rem 0 2rem 0;
   }
-`;
-
-export const CallToAction = styled.button`
-  width: 150px;
-  height: 34.58px;
-  background: #3ecf0e;
-  border-radius: 4px;
-  border: 1px solid #3ecf0e;
-  color: #fff;
-  font-weight: bold;
-  font-size: 16px;
-  text-align: center;
-  align-items: center;
 `;
