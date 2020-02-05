@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tamojuno/static/css/main.786c2dc4.chunk.css",
-    "main.js": "/tamojuno/static/js/main.4bc5716c.chunk.js",
-    "main.js.map": "/tamojuno/static/js/main.4bc5716c.chunk.js.map",
+    "main.js": "/tamojuno/static/js/main.260db0a9.chunk.js",
+    "main.js.map": "/tamojuno/static/js/main.260db0a9.chunk.js.map",
     "runtime-main.js": "/tamojuno/static/js/runtime-main.c4da10c6.js",
     "runtime-main.js.map": "/tamojuno/static/js/runtime-main.c4da10c6.js.map",
     "static/js/2.db68e241.chunk.js": "/tamojuno/static/js/2.db68e241.chunk.js",
     "static/js/2.db68e241.chunk.js.map": "/tamojuno/static/js/2.db68e241.chunk.js.map",
     "index.html": "/tamojuno/index.html",
-    "precache-manifest.69e7124bc7cbc7977cb2fa2b69d357b7.js": "/tamojuno/precache-manifest.69e7124bc7cbc7977cb2fa2b69d357b7.js",
+    "precache-manifest.4917b91e47294f927ab042ab1f7d32c1.js": "/tamojuno/precache-manifest.4917b91e47294f927ab042ab1f7d32c1.js",
     "service-worker.js": "/tamojuno/service-worker.js",
     "static/css/main.786c2dc4.chunk.css.map": "/tamojuno/static/css/main.786c2dc4.chunk.css.map",
     "static/js/2.db68e241.chunk.js.LICENSE.txt": "/tamojuno/static/js/2.db68e241.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.c4da10c6.js",
     "static/js/2.db68e241.chunk.js",
     "static/css/main.786c2dc4.chunk.css",
-    "static/js/main.4bc5716c.chunk.js"
+    "static/js/main.260db0a9.chunk.js"
   ]
 }

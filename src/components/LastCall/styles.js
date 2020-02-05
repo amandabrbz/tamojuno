@@ -80,4 +80,8 @@ export const Like = styled.h3`
 export const Group = styled.div`
   width: 75%;
   align-items: center;
+  ${media.down("sm")} {
+    width: 320px;
+    margin: 0px;
+  }
 `;

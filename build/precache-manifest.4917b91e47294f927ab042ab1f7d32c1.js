@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7996a4d402bbc354f4f185fe1e05a6ba",
+    "revision": "2e74d88a99fd1f8d3961fd3b051eb500",
     "url": "/tamojuno/index.html"
   },
   {
-    "revision": "2f6d7a45421e67ae2bd7",
+    "revision": "455f95783812e7b4f91c",
     "url": "/tamojuno/static/css/main.786c2dc4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tamojuno/static/js/2.db68e241.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2f6d7a45421e67ae2bd7",
-    "url": "/tamojuno/static/js/main.4bc5716c.chunk.js"
+    "revision": "455f95783812e7b4f91c",
+    "url": "/tamojuno/static/js/main.260db0a9.chunk.js"
   },
   {
     "revision": "21cc43f039836ab8579a",
