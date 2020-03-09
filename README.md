@@ -35,3 +35,13 @@
 - [Online](https://tamojuno.herokuapp.com/)
 - [Repositório](https://github.com/amandabrbz/tamojuno)
 - [Você está aqui](https://amandabrbz.github.io/tamojuno/) 
+
+## Alguns dos feedbacks:
+
+- Padronização de commits
+- A pasta build não precisava ser upada
+- Alguns outros pontos de layout
+
+### Outras observações:
+
+- Para resolver o deploy no github pages, é usar uma técnica de Router proprio do React.
